@@ -1,0 +1,95 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1691952484
+<< nwell >>
+rect 266 550 376 1308
+rect 310 548 376 550
+<< ndiff >>
+rect 404 66 416 266
+<< pdiff >>
+rect 400 646 430 1248
+<< psubdiff >>
+rect 318 254 404 266
+rect 318 220 350 254
+rect 384 220 404 254
+rect 318 124 404 220
+rect 318 90 350 124
+rect 384 90 404 124
+rect 318 66 404 90
+<< nsubdiff >>
+rect 308 1206 400 1248
+rect 308 1170 350 1206
+rect 386 1170 400 1206
+rect 308 1074 400 1170
+rect 308 1038 348 1074
+rect 384 1038 400 1074
+rect 308 902 400 1038
+rect 308 866 346 902
+rect 382 866 400 902
+rect 308 736 400 866
+rect 308 700 350 736
+rect 386 700 400 736
+rect 308 646 400 700
+<< psubdiffcont >>
+rect 350 220 384 254
+rect 350 90 384 124
+<< nsubdiffcont >>
+rect 350 1170 386 1206
+rect 348 1038 384 1074
+rect 346 866 382 902
+rect 350 700 386 736
+<< locali >>
+rect 320 1206 424 1250
+rect 320 1170 350 1206
+rect 386 1170 424 1206
+rect 320 1074 424 1170
+rect 320 1038 348 1074
+rect 384 1038 424 1074
+rect 320 902 424 1038
+rect 320 866 346 902
+rect 382 866 424 902
+rect 320 736 424 866
+rect 320 700 350 736
+rect 386 700 424 736
+rect 320 640 424 700
+rect 340 254 420 270
+rect 340 220 350 254
+rect 384 220 420 254
+rect 340 124 420 220
+rect 340 90 350 124
+rect 384 90 420 124
+rect 340 66 420 90
+<< metal1 >>
+rect 388 1328 588 1528
+rect 424 1186 456 1328
+rect 160 478 360 548
+rect 466 478 502 600
+rect 160 432 502 478
+rect 160 348 360 432
+rect 466 304 502 432
+rect 544 480 576 696
+rect 624 480 824 550
+rect 544 448 824 480
+rect 544 218 576 448
+rect 624 350 824 448
+rect 418 20 454 152
+rect 390 -180 590 20
+use sky130_fd_pr__nfet_01v8_LKAE6Q  XM1 ~/Documents/Circuit Design/Inverter/mag
+timestamp 1691945909
+transform 1 0 484 0 1 197
+box -76 -157 76 157
+use sky130_fd_pr__pfet_01v8_2DBK6Y  XM2 ~/Documents/Circuit Design/Inverter/mag
+timestamp 1691945909
+transform 1 0 487 0 1 911
+box -112 -364 112 398
+<< labels >>
+flabel metal1 388 1328 588 1528 0 FreeSans 256 0 0 0 vdd
+port 2 nsew
+flabel metal1 624 350 824 550 0 FreeSans 256 0 0 0 out
+port 3 nsew
+flabel metal1 390 -180 590 20 0 FreeSans 256 0 0 0 vss
+port 1 nsew
+flabel metal1 160 348 360 548 0 FreeSans 256 0 0 0 in
+port 0 nsew
+<< end >>

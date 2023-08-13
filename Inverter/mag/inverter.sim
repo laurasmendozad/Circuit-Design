@@ -1,0 +1,20 @@
+| units: 500000 tech: sky130A format: MIT
+x in vss out vss s=11600,516 d=11600,516 l=36 w=200 x=467 y=67 sky130_fd_pr__nfet_01v8
+x in vdd out vdd s=34800,1316 d=34800,1316 l=36 w=600 x=470 y=648 sky130_fd_pr__pfet_01v8
+R out 2790
+= out XM1/a_18_n131#
+= out XM2/a_18_n264#
+R in 1585
+= in XM1/a_n33_91#
+= in XM2/a_n33_n361#
+R vdd 4756
+= vdd XM2/a_n76_n264#
+= vdd w_266_550#
+= vdd a_400_646#
+= vdd XM2/w_n112_n364#
+R vss 873
+= vss XM1/VSUBS
+= vss XM1/a_n76_n131#
+= vss XM2/VSUBS
+= vss a_404_66#
+= vss a_318_66#

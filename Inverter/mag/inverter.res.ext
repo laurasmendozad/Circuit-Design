@@ -1,0 +1,13 @@
+scale 1000 1 500000
+rnode "vdd" 0 0 388 1328 0
+rnode "out" 0 0 624 350 0
+rnode "vss" 0 0 390 -180 0
+rnode "in.t1" 0 0 487 947 0
+rnode "in.t0" 0 0 484 166 0
+rnode "in.n0" 0 0 484 478 0
+rnode "in" 0 0 160 348 0
+resist "in" "in.n0" 0.461957
+resist "in.n0" "in.t0" 201.213
+resist "in.n0" "in.t1" 481.02
+device msubckt sky130_fd_pr__pfet_01v8 469 647 470 648  "vdd" "in.t1" 72 0 "vdd" 600 34800,1316 "out" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8 466 66 467 67  "vss" "in.t0" 72 0 "vss" 200 11600,516 "out" 200 11600,516

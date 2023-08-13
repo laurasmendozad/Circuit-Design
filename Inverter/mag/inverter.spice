@@ -1,0 +1,43 @@
+* NGSPICE file created from inverter.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_LKAE6Q a_18_n131# a_n33_91# a_n76_n131# VSUBS
+X0 a_18_n131# a_n33_91# a_n76_n131# VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.18
+C0 a_18_n131# a_n33_91# 0.0135f
+C1 a_18_n131# a_n76_n131# 0.152f
+C2 a_n33_91# a_n76_n131# 0.0135f
+C3 a_18_n131# VSUBS 0.117f
+C4 a_n76_n131# VSUBS 0.117f
+C5 a_n33_91# VSUBS 0.209f
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_2DBK6Y a_n76_n264# a_n33_n361# a_18_n264# w_n112_n364#
++ VSUBS
+X0 a_18_n264# a_n33_n361# a_n76_n264# w_n112_n364# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.18
+C0 w_n112_n364# a_n76_n264# 0.0126f
+C1 a_18_n264# a_n76_n264# 0.449f
+C2 a_n33_n361# w_n112_n364# 0.0651f
+C3 a_18_n264# a_n33_n361# 0.0237f
+C4 a_18_n264# w_n112_n364# 0.0126f
+C5 a_n33_n361# a_n76_n264# 0.0237f
+C6 a_18_n264# VSUBS 0.274f
+C7 a_n76_n264# VSUBS 0.274f
+C8 a_n33_n361# VSUBS 0.145f
+C9 w_n112_n364# VSUBS 0.512f
+.ends
+
+.subckt inverter in vss vdd out
+XXM1 out in vss vss sky130_fd_pr__nfet_01v8_LKAE6Q
+XXM2 vdd in out vdd vss sky130_fd_pr__pfet_01v8_2DBK6Y
+X0 out in.t0 vss vss sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=0 l=0
+X1 out in.t1 vdd vdd sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=0 l=0
+R0 in.n0 in.t1 481.021
+R1 in.n0 in.t0 201.214
+R2 in in.n0 0.462457
+C0 in vdd 0.0567f
+C1 out in 0.161f
+C2 out vdd 0.0327f
+C3 out vss 0.615f
+C4 in vss 0.47f
+C5 vdd vss 1.13f
+.ends
+
