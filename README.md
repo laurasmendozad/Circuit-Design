@@ -2,8 +2,8 @@
 Circuits design using the open source technology
 1. [Inverter](https://github.com/laurasmendozad/Circuit_Design/tree/main/Inverter)
 
-## Tool and PDK Setup
-### Tools Setup
+## Tool and PDK
+### Tools
 For the design and simulation.
 -   [Ngspice](http://ngspice.sourceforge.net/) - Spice netlist simulation
 	[Reference Manual](http://ngspice.sourceforge.net/docs/ngspice-manual.pdf)
@@ -13,6 +13,6 @@ For the design and simulation.
 	[Tutorials](http://opencircuitdesign.com/netgen/tutorial/tutorial.html)
 -   [Xschem](http://repo.hu/projects/xschem/) - Schematic Capture
 	[Manual](https://xschem.sourceforge.io/stefan/xschem_man/xschem_man.html)
-### PDK Setup
+### PDK
 [SkyWater SKY130](https://github.com/google/skywater-pdk) - PDK
 [Documentation](https://skywater-pdk.readthedocs.io/en/main/)
