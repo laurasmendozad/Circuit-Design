@@ -8,7 +8,7 @@ For the design and simulation.
 -   [Ngspice](http://ngspice.sourceforge.net/) - Spice netlist simulation
 	[Reference Manual](http://ngspice.sourceforge.net/docs/ngspice-manual.pdf)
 -   [Magic](http://opencircuitdesign.com/magic/) - Layout Design and DRC
-	[Documentationn](http://ngspice.sourceforge.net/docs/ngspice-manual.pdf)
+	[Documentationn](http://opencircuitdesign.com/magic/magic_docs.html)
 -  [Netgen](http://opencircuitdesign.com/netgen/) -  LVS
 	[Tutorials](http://opencircuitdesign.com/netgen/tutorial/tutorial.html)
 -   [Xschem](http://repo.hu/projects/xschem/) - Schematic Capture
