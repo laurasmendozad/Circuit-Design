@@ -13,4 +13,4 @@ Symbol
 ![image](https://github.com/laurasmendozad/Circuit_Design/assets/58611097/c0ad1a11-f9de-40f0-8935-fd441a486879)
   
 Results  
-
+![image](https://github.com/laurasmendozad/Circuit_Design/img/inverter_tb_results.svg)
