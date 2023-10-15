@@ -72,4 +72,4 @@ XM2 out in vdd vdd sky130_fd_pr__pfet_01v8 L=0.18 W=3 nf=1 ad='int((nf+1)/2) * W
 .end
 ```
 ## 4. Layout
-
+<img src='https://github.com/laurasmendozad/Circuit_Design/blob/main/img/inverter_layout.png' height='500'>
