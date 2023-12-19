@@ -1,4 +1,6 @@
-# Circuit Design
+# Circuit Design with SkyWater
+![circuit-design-presentation](https://github.com/laurasmendozad/Circuit_Design/assets/58611097/dc13c2b7-d58f-4056-ae55-64e6cd989fb9)
+
 Circuits design using the open source technology
 1. [Inverter](https://github.com/laurasmendozad/Circuit_Design/tree/main/Inverter)
 
