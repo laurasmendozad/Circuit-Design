@@ -3,6 +3,7 @@
 
 Circuits design using the open source technology
 1. [Inverter](https://github.com/laurasmendozad/Circuit_Design/tree/main/Inverter)
+2. [SAR ADC](https://github.com/laurasmendozad/Circuit-Design/tree/main/SAR%20ADC)
 
 ## Tool and PDK
 ### Tools
